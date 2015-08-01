@@ -35,6 +35,8 @@ datetime.datetime(2015, 8, 1, 9, 0)
 datetime.timedelta(0, 34622, 823924)
 # a timedelta is new, don't totally understand it yet, but in this case it's showing the difference between now() and the starttime
 
+# a timedelta represents a gap in time
+
 >>> time_worked = datetime.datetime.now() - treehouse_start
 # get the amount of time I've worked today
 
